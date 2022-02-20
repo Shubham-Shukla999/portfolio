@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+.input{
+width:300px;
+height:30px;
+}
+div{
+width:850px;
+height:700px;
+border:1px solid;
+background-color:white;
+border-radius:20px;
+}
+.button{
+width:80px;
+height:28px;
+border-radius:10px;
+
+}
+</style>
+</head>           
+<body style="text-align:center;margin:80px;background-color:#250ac0;">
+<div>
+<form>
+<h1 style="font-family:Arial;">Contact Form</h1>
+<h4 style="font-family:arial">Fill & Submit the form and I will get back to you shortly</h4>
+<marquee style="color:rgb(252, 43, 6);margin:7px;">Welcom !!!</marquee> 
+<input class="input" type="text" placeholder="Enter Your First Name" required><br><br>
+<input class="input" type="text" placeholder="Enter Your Last Name"><br><br>
+<input class="input" type="email" placeholder="Enter Your Email Address" required><br><br>
+<input class="input" type="url" id="url" name="gitlink" placeholder="Git Repository Link(optional)"><br><br>
+<input class="input" type="text" placeholder="Contact Number"><br><br>
+<label style="font-family:Arial;" >Select Gender:</label>
+<input type="radio" id="gender" value="Male" name="gender"><label for="gender" style="font-family:Arial;">Male</label>
+<input type="radio" id="gender" value="Female" name="gender"><label for="gender" style="font-family:Arial;">Female</label><br><br>
+<label for="bday" style="font-family:Arial;">Date Of Birth:</label>
+<input type="date" id="bday" name="birthdate" required><br><br>
+<input class="input" type="text" placeholder="Suggestions"><br><br>
+<input type="checkbox" id="check "name="check">I have read all terms and conditions<br><br>
+<input class="button" type="Submit" style="background-color:#1fc410;color:white;">  <input class="button" type="reset">
+</form>
+<a href="index.html"  style="font-family:arial;color:black;">Back</a>
+</div>
+</body>
+</html>
